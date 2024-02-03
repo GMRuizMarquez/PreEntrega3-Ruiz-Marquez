@@ -389,3 +389,8 @@ footer {
   font-size: 17px;
 }
 
+.map{
+    width: 100%;
+    height: auto;
+    border: 0px;
+}
