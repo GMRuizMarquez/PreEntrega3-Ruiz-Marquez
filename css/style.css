@@ -273,7 +273,6 @@ footer {
 
 }
 
-/* Estilos para la lista de navegación del footer */
 .footer-nav-sectión {
     list-style: none;
     padding: 0;
@@ -347,7 +346,7 @@ footer {
 
 }
 
-/* Estilos para los enlaces de las redes sociales */
+
 .social-icons a {
 
     text-decoration: none;
@@ -356,7 +355,7 @@ footer {
 }
 
 
-/* Estilos para los íconos de las redes sociales */
+
 .iconfooter-X,
 .iconfooter-wikipedia,
 .iconfooter-facebook,
