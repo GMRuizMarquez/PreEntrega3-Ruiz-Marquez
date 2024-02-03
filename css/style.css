@@ -72,6 +72,10 @@ html {
     background-image: url(../assets/IMAGENES/FOTO-IA.jpeg);
     
 }
+
+.main-contact{
+    background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg)
+}
 .title {
     font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
     text-transform: uppercase;
@@ -367,6 +371,21 @@ footer {
     filter: invert(1)
 }
 
+.contact-info{
+    background-color: #2a4e2a;
+  padding: 20px;
+  border: white double 5px;
+  border-radius: 5px;
+}
 
-
+.contact-info div{
+    background-color: #9eb19e;
+    padding: 10px;
+    border: white double 5px;
+    border-radius: 5px;
+    margin: 3px ;
+    text-align: center;
+  font-family: TiemposHeadlineWeb-regular, Georgia, serif;
+  font-size: 17px;
+}
 

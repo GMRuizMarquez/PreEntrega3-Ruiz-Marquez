@@ -1,153 +1,197 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Segunda Pre-entrega</title>
+
 </head>
 
 <!--COMIENZA EL BODY-->
 
-<body class="container-main">
+<body class="body">
 
-    <!--COMIENZA EL HEADER-->
-    <header class="header">
-        <section class="navflex">
+    <header>
+        <nav class="navbar  navbar-dark bg-black navbar-expand-lg">
+            <section class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-nav" src="../assets/IMAGENES/LOGO-PNG.png" alt="logo de los simuladores" width="170"
+                        height="120">
+                </a>
 
-            <div class="logo-nav">
-                <img class="logo.nav" src="../assets/IMAGENES/LOGO-PNG.png" alt="logo de los simuladores">
-            </div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <article class="offcanvas offcanvas-end .bg-success-subtle" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title justify-content-center" id="offcanvasNavbarLabel">Los Simuladores
+                        </h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-black">
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/equipo.html">Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/testimonios.html">Testimonios</a>
 
-            <nav class="main-nav">
-
-                <ul class="nav-list">
-                    <!--agregar las referencias y el estilo-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/equipo.html">Equipo</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/testimonios.html">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/simulaciones.html">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link-contacto" href="../pages/contacto.html">Contacto</a>
-                    </li>
-
-                </ul>
-            </nav>
-
-        </section>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/simulaciones.html">Trabajos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </nav>
     </header>
 
+    <main>
+        <section class="main-hero main-contact mt-3 p-3">
+            <div class="container">
+                <div class="row justify-content-center align-items-">
+                    <div class="col-lg-6">
+                        <h1 class="title display-3">
+                            Contacto
+                        </h1>
 
-    <!--COMIENZA EL MAIN-->
 
-
-    <main class="body">
-
-        <section class="body-texto-bienvenida">
-
-            <img class="portada" src="../assets/imagenes/contacto-equipo.jpg" alt="integrantes de los simuladores">
-
-            <article class="backgroundinicial">
-                <h1 class="titulo-primario-pages">
-                    Contacto
-                </h1>
-            </article>
+                        <div class="text-lg-center text-center m-4">
+                            <a class="button btn-primary btn-lg btn-block h3 text-white m-3"
+                                href="../index.html">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <section class="hero-contact">
-            <article class="contact-info">
-                <div>
-                    <h3 class="box-title">PHONE</h3>
-                    <a class="cont-box">(+54 011) 4587-8544</a>
-                </div>
-                <div>
-                    <h3 class="box-title">FAX</h3>
 
-                    <a> (+54 405) 2854-2548</a>
-                </div>
-                <div>
-                    <h3 class="box-title">EMAIL</h3>
-                    <h4>General inquieres</h4>
-                    <a class="cont-box">sip@simuladores.com</a>
-                    <h4>Solutions inquieres</h4>
-                    <a class="cont-box">SOL@simuladores.com</a>
-                    <h4>Team inquieres</h4>
-                    <a class="cont-box">TeamInqui@simuladores.com</a>
+            <section class="container-md">
+                <div class="row p-2">
+
+                    <article class="contact-info col-md-5 col-sm-12 d-flex row">
+<div>
+                        <h5 class=" semititulo ">Información</h5>
+
+                        <div>
+                            <h3 class="box-title">PHONE</h3>
+                            <a class="cont-box">(+54 011) 4587-8544</a>
+                        </div>
+                        <div>
+                            <h3 class="box-title">EMAIL</h3>
+                            <h4>General inquieres</h4>
+                            <a class="cont-box">sip@simuladores.com</a>
+                        
+                            <h4>Team inquieres</h4>
+                            <a class="cont-box">TeamInqui@simuladores.com</a>
+                        </div>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.598868662072!2d-58.37340432366021!3d-34.608195135760106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1705437614189!5m2!1ses!2sar"
+                            width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </article>
+
+                    <form class="Forms-comp  box col-md-5 offset-md-2 col-sm-12">
+
+
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre </label>
+                            <input type="text" class="form-control" id="Name" aria-describedby="NameHelp">
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <div class="Forms-label"> <label for="referente" class="form-label">Referente</label>
+                                <input type="text" class="form-control" id="referente">
+                            </div>
+                        </div>
+
+                        <div class="Forms-label">
+                            <label for="mensaje"> Explique su caso</label>
+                            <textarea class="form-control" placeholder="En que podemos ayudarte" id="mensaje"
+                                style="height: 200px;"></textarea>
+                        </div>
+
+
+                        <button type="submit" class="button btn-secondary btn-sm btn-block h5 text-white m-3">Fuego
+                            tiene?</button>
+
+
+                    </form>
                 </div>
 
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.598868662072!2d-58.37340432366021!3d-34.608195135760106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1705437614189!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
 
+            <article class=" d-flex align-items-center justify-content-center col">
+
+                <a href="../index.html" class="button btn-primary text-white m-3  h4">Home</a>
+                
             </article>
-
-            <form class="Forms-comp">
-                <div class="Forms-label">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre">
-                </div>
-                <div class="Forms-label">
-                    <label for="telefono" class="form-label">Teléfono</label>
-                    <input type="tel" class="form-control" id="telefono">
-                </div>
-                <div class="Forms-label">
-                    <label for="email" class="form-label">E-Mail</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="Forms-label"> <label for="referente" class="form-label">Referente</label>
-                    <input type="text" class="form-control" id="referente">
-                </div>
-                <div class="Forms-label">
-                    <label for="mensaje"> Explique su caso</label>
-                    <textarea class="form-control" placeholder="En que podemos ayudarte" id="mensaje"
-                        style="height: 200px;"></textarea>
-                </div>
-                <button type="submit" class="Submit-Form">Fuego tiene?</button>
-
-            </form>
-
         </section>
-        <a href="../index.html" class="boton">Home</a>
+        
 
 
     </main>
 
     <!--COMIENZA EL FOOTER-->
 
-    <footer>
+    <!--COMIENZA EL FOOTER-->
+    <footer class=" d-flex row ">
 
-        <section class="footer-nav-sectión">
+        <section class="footer-nav-section col-md-3 col-6">
 
             <nav class="footer-nav">
                 <ul class="footer-list">
                     <li class="footer-A">
+
                         <a href="../pages/equipo.html" class="footer-link">Equipo</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/testimonios.html" class="footer-link">Testimonios</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/simulaciones.html" class="footer-link">Trabajos</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/contacto.html" class="footer-link">Contacto</a>
                     </li>
+
                 </ul>
             </nav>
         </section>
 
 
-        <section class="socials">
+
+        <section class=" col-md-1  d-none d-sm-none d-md-block">
             <nav class="social-service-list">
                 <div class="listitem-icononly">
                     <a class="footer-icononly" href="https://twitter.com/Los_Simuladores" target="_blank">
@@ -157,12 +201,12 @@
                 </div>
 
 
-                <div class="listitem -icononly">
-                    <a class="foote-icononly" href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">
+                <div class="listitem -icononly ">
+                    <a class="footer-icononly" href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">
                         <img class="iconfooter-wikipedia" src="../assets/IMAGENES/LOGO-WIKIPEDIA.png"
                             alt="logo de wikipedia">
-
                     </a>
+
                 </div>
 
 
@@ -171,7 +215,9 @@
                         target="_blank">
                         <img class="iconfooter-facebook" src="../assets/IMAGENES/LOGO-FACEBOOK.png"
                             alt="logo de facebook">
+
                     </a>
+
 
                 </div>
 
@@ -186,20 +232,27 @@
             </nav>
         </section>
 
-        <section class="footer-text">
+        <section class="footer-text w-25 col-md-3  col-6">
             <p>
                 © Los Simuladores S.R.L. Made by <a href="https://es.wikipedia.org/wiki/Dami%C3%A1n_Szifron"
-                    target="_blank" class="copyright">Damián Szifron</a> in Buenos Aires,Argentina.
-
+                    target="_blank" class="copyright">Damián Szifron</a> in Buenos Aires,
+                Argentina.
             </p>
-
             <p>
                 Website made by <a href="https://www.linkedin.com/in/gonzaloruizmarquez/" target="_blank"
                     class="copyright">Gonzalo Manuel Ruiz Marquez</a> in Desarrollo Web, CODERHOUSE.
 
             </p>
         </section>
+
+
+        </article>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 
