@@ -5,170 +5,256 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Segunda Pre-entrega</title>
+
 </head>
 
 <!--COMIENZA EL BODY-->
 
-<body class="container-main">
+<body class="body">
 
-    <!--COMIENZA EL HEADER-->
-    <header class="header">
-        <section class="navflex">
+    <header>
+        <nav class="navbar  navbar-dark bg-black navbar-expand-lg">
+            <section class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-nav" src="../assets/IMAGENES/LOGO-PNG.png" alt="logo de los simuladores" width="170"
+                        height="120">
+                </a>
 
-            <div class="logo-nav">
-                <img class="logo.nav" src="../assets/IMAGENES/LOGO-PNG.png" alt="logo de los simuladores">
-            </div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <article class="offcanvas offcanvas-end .bg-success-subtle" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title justify-content-center" id="offcanvasNavbarLabel">Los Simuladores
+                        </h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-black">
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/equipo.html">Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/testimonios.html">Testimonios</a>
 
-            <nav class="main-nav">
-
-                <ul class="nav-list">
-                    <!--agregar las referencias y el estilo-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/equipo.html">Equipo</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/testimonios.html">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/simulaciones.html">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link-contacto" href="../pages/contacto.html">Contacto</a>
-                    </li>
-
-                </ul>
-            </nav>
-
-        </section>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/simulaciones.html">Trabajos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </nav>
     </header>
-    <!--COMIENZA EL MAIN-->
 
-    <main class="body">
+    <main>
+        <section class="main-hero main-jobs mt-3 p-3">
+            <div class="container">
+                <div class="row justify-content-start align-items-end">
+                    <div class="col-lg-6">
+                        <h1 class="title display-5">
+                            Trabajos
+                        </h1>
+                        <p class="h4 text-white text-lg-center text-center subtitle mt-3 bg-dark bg-opacity-75">
+                            Cada caso representa un desafío único resuelto con maestría por el equipo. Desde situaciones
+                            empresariales hasta conflictos personales, estos trabajos ilustran la versatilidad y
+                            efectividad de
+                            Los
+                            Simuladores en la creación de soluciones ingeniosas.
+                        </p>
 
-        <section class="body-texto-bienvenida">
-
-            <img class="portada" src="../assets/imagenes/PORTADA-TRABAJOS.webp" alt="integrantes de los simuladores">
-
-            <article class="backgroundinicial">
-                <h1 class="titulo-primario-pages">
-                    Trabajos
-                </h1>
-
-                <p class="subtitulo-pages">
-                    Cada caso representa un desafío único resuelto con maestría por el equipo. Desde situaciones
-                    empresariales hasta conflictos personales, estos trabajos ilustran la versatilidad y efectividad de
-                    Los
-                    Simuladores en la creación de soluciones ingeniosas. 
-                </p>
-            </article>
-            <a href="../pages/contacto.html" class="boton">contacto</a>
+                        <div class="text-lg-center text-center mt-3">
+                            <a class="button btn-primary btn-lg btn-block h3 text-white"
+                                href="../pages/contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-            <section class="trabajos-list">
 
-                <div class="trabajo-uno">
 
-                    <img class="trabajo-imagen" src="../assets/IMAGENES/Simulación_El_Anillo_de_Salom n.webp"
-                        alt="trabajo llamado anillo del salmon">
 
-                    <h3 class="trabajo-titulo">
-                        El Anillo de Salomón
-                    </h3>
 
-                    <p class="trabajo-texto">
-                        El grupo ayuda al conocido director de orquesta de música clásica Horvat a librarse de un
-                        compositor
-                        joven y obsesivo que lo acosa y lo presiona para que dirija el concierto que compuso, luego de
-                        haber
-                        estado presente en un concierto en Mar del Plata, donde Horvat aseguró que la música es una
-                        profesión de tiempo completo". Los simuladores lo manipulan para creer que el compositor puede
-                        entender los cantos de las ballenas, y lo impulsan a hacer composiciones con base en ellas, que
-                        terminan siendo extremadamente exitosas.
-                    </p>
+        <section class="trabajos-list">
 
+
+            <article class="card my-5" style="max-width: 1425px;">
+                <div class="row g-0">
+
+                    <div class="clearfix p-4">
+                        <img src="../assets/IMAGENES/Simulación_El_Anillo_de_Salom n.webp"
+                            class="col-md-6 float-md-start m-3 ms-md-3 img-fluid "
+                            alt="trabajo llamado anillo del salmon">
+
+                        <h5 class="card-title display-4"> El Anillo de Salomón</h5>
+                        <p class="txt-test "> Martín Quesada, un joven atrapado en las garras de la delincuencia.
+                            Engañado para robar un ancestral anillo con supuestos poderes místicos, Quesada se encuentra
+                            inmerso en un conflicto mayor de lo que imaginaba.
+
+                            El equipo liderado por Santos Vega despliega su astucia y creatividad para devolver el
+                            anillo a su legítimo dueño, Salomón, último descendiente de una linaje venerado. Cada
+                            simulación es una pieza ingeniosa que desenmascara la red delictiva. La trama combina
+                            suspenso y comedia, manteniendo a los espectadores en vilo.
+
+                            El desarrollo de los personajes agrega profundidad a la historia, revelando conexiones
+                            inesperadas. Los diálogos son afilados, alternando entre momentos cómicos y reflexivos. El
+                            punto álgido llega con un giro emocionante, donde Los Simuladores no solo recuperan el
+                            anillo, sino que también ofrecen a Quesada una oportunidad de redención.
+
+                            "El Anillo de Salomón" no solo es una narrativa ingeniosa, sino también una exploración de
+                            temas más profundos como la redención. Los Simuladores, con su maestría en la simulación,
+                            tejen una historia cautivadora que lleva a los espectadores por un viaje lleno de sorpresas
+                            y reflexiones. Este episodio destaca por su combinación magistral de elementos narrativos,
+                            humor y emoción, consolidando la serie como una obra maestra de la televisión.
+                        </p>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card my-5" style="max-width: 1425px;">
+                <div class="row g-0">
+
+                    <div class="clearfix p-4">
+                        <img src="../assets/IMAGENES/Debilitador Social-Marcela.jpg"
+                            class="col-md-6 float-md-start m-3 ms-md-3 img-fluid "
+                            alt="trabajo llamado debilitador social">
+
+                        <h5 class="card-title display-4"> El Debilitador Social</h5>
+                        <p class="txt-test ">Un chico les pide ayuda a los Simuladores para su hermana, Mariana Ventura
+                            (interpretada por
+                            Marcela
+                            Klosterboer), una modelo bulímica, contratada por la agencia de Manuel Garriga. Los
+                            simuladores
+                            realizan la pantomima de un juicio internacional, con Feller como juez, y Máximo Cozzetti
+                            como
+                            fiscal. Se trata de un tribunal especial de la ONU juzgará por pre-crímenes contra la
+                            humanidad
+                            al
+                            jefe de su agencia de modelos.
+
+                            El equipo de Los Simuladores despliega su astucia, utilizando estrategias psicológicas y
+                            sociales para socavar la reputación de Juan Carlos. Las simulaciones son ingeniosas y, en
+                            ocasiones, cómicas, pero también revelan las complejidades de las relaciones humanas.
+
+                            El episodio destaca por su exploración de temas como la responsabilidad, el poder y las
+                            consecuencias de nuestras acciones. Los diálogos son afilados, y la tensión se mantiene a lo
+                            largo del episodio, culminando en un desenlace sorprendente.
+
+                            Lo que hace que "El Debilitador Social" sea memorable es la manera en que Los Simuladores
+                            abordan no solo el encargo en sí, sino también las implicaciones éticas de sus acciones.
+                            Este capítulo invita a la reflexión sobre la influencia social y la responsabilidad
+                            individual, elevando la serie a un nivel más profundo.
+
+                        </p>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card my-5" style="max-width: 1425px;">
+                <div class="row g-0">
+
+                    <div class="clearfix p-4">
+                        <img src="../assets/IMAGENES/equipo-img.jpeg"
+                            class="col-md-6 float-md-start m-3 ms-md-3 img-fluid "
+                            alt="trabajo llamado cuatro notables">
+
+                        <h5 class="card-title display-4"> Los cuatro notables</h5>
+                        <p class="txt-test ">Para ayudar a la familia de un hombre enfermo al que su seguro médico no
+                            desea atender, el grupo
+                            trata de engañar al gerente del seguro médico de que es precandidato a un Premio Nobel, por
+                            hacer
+                            que su seguro acepte tratar enfermedades preexistentes.
+                            El grupo convence al empresario y médico de cambiar la postura de Plus Medical y aceptar a
+                            pacientes
+                            con enfermedades preexistentes, lo que genera un cambio a nivel global de los servicios de
+                            prepagas,
+                            y hace alzar las acciones de la compañía.
+                            os Simuladores mientras intentan ayudar a cuatro jóvenes desfavorecidos que enfrentan
+                            circunstancias difíciles. Cada uno representa un arquetipo social, desde un estudiante con
+                            problemas académicos hasta un músico callejero.
+
+                            El equipo desarrolla simulaciones ingeniosas para cambiar el curso de las vidas de estos
+                            cuatro individuos, pero la historia va más allá de las soluciones prácticas. Se adentra en
+                            la psicología humana y aborda cuestiones sociales y económicas. Los diálogos son impactantes
+                            y las actuaciones, conmovedoras.
+
+                            El capítulo destaca por su capacidad para mezclar humor y drama, creando una narrativa que
+                            va directo al corazón del espectador. Además, presenta una crítica social sutil, explorando
+                            las desigualdades y desafíos que enfrenta la sociedad.
+
+                            "Los Cuatro Notables" no solo es entretenimiento, sino también una reflexión sobre la
+                            empatía, la solidaridad y la capacidad de cada individuo para cambiar su destino. La
+                            historia resalta la importancia de la ayuda mutua y cómo pequeños actos pueden tener un
+                            impacto significativo.
+
+                            En conclusión, este caso de "Los Simuladores" es un viaje emocional que combina
+                            hábilmente la comedia, el drama y la crítica social, dejando a los espectadores con una
+                            sensación duradera de conexión con los personajes y reflexiones sobre la sociedad.
+                        </p>
+
+                    </div>
                 </div>
 
-                <div class="trabajo-dos">
+            </article>
+            <article class=" d-flex align-items-center justify-content-center col">
 
-                    <img class="trabajo-imagen" src="../assets/IMAGENES/Debilitador Social-Marcela.jpg"
-                        alt="trabajo llamado Debilitador social">
+                <a href="../index.html" class="button btn-primary text-white m-3 ">Home</a>
 
-                    <h3 class="trabajo-titulo">
-                        El Debilitador Social
-                    </h3>
+                <a href="../pages/contacto.html" class="button btn-primary text-white m-3 ">Contacto</a>
 
-                    <p class="trabajo-texto">
-                        Un chico les pide ayuda a los Simuladores para su hermana, Mariana Ventura (interpretada por
-                        Marcela
-                        Klosterboer), una modelo bulímica, contratada por la agencia de Manuel Garriga. Los simuladores
-                        realizan la pantomima de un juicio internacional, con Feller como juez, y Máximo Cozzetti como
-                        fiscal. Se trata de un tribunal especial de la ONU juzgará por pre-crímenes contra la humanidad
-                        al
-                        jefe de su agencia de modelos.
-                    </p>
-
-                </div>
-
-                <div class="trabajo-tres">
-
-                    <img class="trabajo-imagen" src="../assets/IMAGENES/Simulación_los cuatro notables.jpg"
-                        alt="trabajo llamado cuatro notables">
-
-                    <h3 class="trabajo-titulo">
-                        Los cuatro notables
-                    </h3>
-
-                    <p class="trabajo-texto">
-                        Para ayudar a la familia de un hombre enfermo al que su seguro médico no desea atender, el grupo
-                        trata de engañar al gerente del seguro médico de que es precandidato a un Premio Nobel, por
-                        hacer
-                        que su seguro acepte tratar enfermedades preexistentes.
-                        El grupo convence al empresario y médico de cambiar la postura de Plus Medical y aceptar a
-                        pacientes
-                        con enfermedades preexistentes, lo que genera un cambio a nivel global de los servicios de
-                        prepagas,
-                        y hace alzar las acciones de la compañía.
-                    </p>
-
-                </div>
-
-                <a href="../index.html" class="boton">Home</a>
-
-                <a href="../pages/contacto.html" class="boton">Contacto</a>
-        </div>
+            </article>
         </section>
     </main>
 
+
+
+
     <!--COMIENZA EL FOOTER-->
+    <footer class=" d-flex row ">
 
-    <footer>
-
-        <section class="footer-nav-sectión">
+        <section class="footer-nav-section col-md-3 col-6">
 
             <nav class="footer-nav">
                 <ul class="footer-list">
                     <li class="footer-A">
+
                         <a href="../pages/equipo.html" class="footer-link">Equipo</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/testimonios.html" class="footer-link">Testimonios</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/simulaciones.html" class="footer-link">Trabajos</a>
                     </li>
+
                     <li class="footer-A">
                         <a href="../pages/contacto.html" class="footer-link">Contacto</a>
                     </li>
+
                 </ul>
             </nav>
         </section>
 
 
-        <section class="socials">
+
+        <section class=" col-md-1  d-none d-sm-none d-md-block">
             <nav class="social-service-list">
                 <div class="listitem-icononly">
                     <a class="footer-icononly" href="https://twitter.com/Los_Simuladores" target="_blank">
@@ -178,12 +264,12 @@
                 </div>
 
 
-                <div class="listitem -icononly">
-                    <a class="foote-icononly" href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">
+                <div class="listitem -icononly ">
+                    <a class="footer-icononly" href="https://es.wikipedia.org/wiki/Los_simuladores" target="_blank">
                         <img class="iconfooter-wikipedia" src="../assets/IMAGENES/LOGO-WIKIPEDIA.png"
                             alt="logo de wikipedia">
-
                     </a>
+
                 </div>
 
 
@@ -192,7 +278,9 @@
                         target="_blank">
                         <img class="iconfooter-facebook" src="../assets/IMAGENES/LOGO-FACEBOOK.png"
                             alt="logo de facebook">
+
                     </a>
+
 
                 </div>
 
@@ -207,20 +295,27 @@
             </nav>
         </section>
 
-        <section class="footer-text">
+        <section class="footer-text w-25 col-md-3  col-6">
             <p>
                 © Los Simuladores S.R.L. Made by <a href="https://es.wikipedia.org/wiki/Dami%C3%A1n_Szifron"
-                    target="_blank" class="copyright">Damián Szifron</a> in Buenos Aires,Argentina.
-
+                    target="_blank" class="copyright">Damián Szifron</a> in Buenos Aires,
+                Argentina.
             </p>
-
             <p>
                 Website made by <a href="https://www.linkedin.com/in/gonzaloruizmarquez/" target="_blank"
                     class="copyright">Gonzalo Manuel Ruiz Marquez</a> in Desarrollo Web, CODERHOUSE.
 
             </p>
         </section>
+
+
+        </article>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 

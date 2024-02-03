@@ -64,6 +64,14 @@ html {
     background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg) ;
 }
 
+.main-test {
+    background-image: url(../assets/IMAGENES/FOTO-IA3.jpeg);
+}
+
+.main-jobs{
+    background-image: url(../assets/IMAGENES/FOTO-IA.jpeg);
+    
+}
 .title {
     font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
     text-transform: uppercase;
@@ -209,6 +217,20 @@ html {
     margin: 10px;
 }
 
+.txt-test{
+    font-family: TiemposTextWeb-Regular;
+    text-align: justify;
+    font-size:16px;
+    padding: 2px;
+}
+
+@media (max-width: 733px) {
+    .txt-test {
+        font-size:13px;
+    }
+}
+
+    
 .art-tw {
     display: flex;
     flex-direction: row;
