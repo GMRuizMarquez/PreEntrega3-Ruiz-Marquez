@@ -1,442 +1,426 @@
-@font-face {
-    font-family: Graphik;
-    src: url(../assets/FONT/Graphik-Regular-Web.woff);
-}
-
-@font-face {
-    font-family: TiemposTextWeb-Regular;
-    src: url(../assets/FONT/TiemposTextWeb-Regular.woff2);
-}
-
-@font-face {
-    font-family: TiemposHeadLineWeb-Bold;
-    src: url(../assets/FONT/TiemposHeadlineWeb-Bold.woff2);
-}
-
+@charset "UTF-8";
 html {
-    font-family: Graphik;
-    color: #163020;
-    background-color: #B6C4B6;
+  font-family: Graphik;
+  color: #163020;
+  background-color: #B6C4B6;
 }
 
 .body {
-    margin: 0 auto;
-    width: 1425px;
-    background-color: #B6C4B6;
-
+  margin: 0 auto;
+  width: 1425px;
+  background-color: #B6C4B6;
 }
 
 @media (max-width: 1320px) {
-    .body {
-        width: 100%;
-    }
+  .body {
+    width: 100%;
+  }
 }
-
-.navbar {
-    font-family: TiemposTextWeb-Regular;
-    font-size: 25px;
-    color: #eaf3ed;
-
-}
-
-.navbar-nav {
-    display: flex;
-    gap: 12px;
-}
-
-.img-nav {
-    filter: invert(1);
-
-}
-
 .main-hero {
-    background-image: url(../assets/IMAGENES/FOTO-IA4.jpeg);
-    background-size: cover;
-    height: 850px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    border-bottom: #000 8px double;
+  background-size: cover;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-bottom: #000 8px double;
 }
 
-.main-team {
-    background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg) ;
-}
-
-.main-test {
-    background-image: url(../assets/IMAGENES/FOTO-IA3.jpeg);
-}
-
-.main-jobs{
-    background-image: url(../assets/IMAGENES/FOTO-IA.jpeg);
-    
-}
-
-.main-contact{
-    background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg)
-}
 .title {
-    font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
-    text-transform: uppercase;
-    color: wheat;
-    text-align: center;
+  font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+  text-transform: uppercase;
+  color: wheat;
+  text-align: center;
 }
 
 .subtitle {
-    font-family: TiemposTextWeb-Regular;
+  font-family: TiemposTextWeb-Regular;
 }
 
 .contacto {
-    display: flex;
+  display: flex;
 }
 
 .button {
-    background-color: #163020;
-    color: #B6C4B6;
-    padding: 10px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-    font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
-    margin: 20px;
+  background-color: #163020;
+  color: #B6C4B6;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
+  margin: 20px;
 }
 
-.imagnes-certificaciones {
-
-    border-bottom: #000 8px double;
-    padding: 20px;
-    margin: 30px;
+@font-face {
+  font-family: Graphik;
+  src: url(../assets/FONT/Graphik-Regular-Web.woff);
 }
-
-.semititulo {
-    font-size: 25px;
-    border-bottom: #163020 solid;
-    background-color: #d5d5d5;
-    border-radius: 5px;
-    font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
-    padding: 30px;
-    ;
+@font-face {
+  font-family: TiemposTextWeb-Regular;
+  src: url(../assets/FONT/TiemposTextWeb-Regular.woff2);
 }
-
-.carousel {
-    overflow: hidden;
-    width: 900px;
-    height: 100%;
+@font-face {
+  font-family: TiemposHeadLineWeb-Bold;
+  src: url(../assets/FONT/TiemposHeadlineWeb-Bold.woff2);
 }
-
-@media (max-width: 992px) {
-    .carousel {
-        width: 300px;
-        height: 100%;
-    }
-}
-
-
-.beneficios-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 35px;
-    margin-bottom: 50px;
-    border-bottom: #000 8px double;
-    padding-bottom: 5px;
-
-}
-
-
-
-.box {
-    display: flex;
-    flex-direction: column;
-    background-color: #a1b3a2;
-    color: #000;
-    text-align: justify;
-    border: 8px solid #304D30;
-    height: 350 px;
-    width: 100%;
-    width: auto;
-
-    justify-content: flex-start;
-    padding: 20px;
-    font-family: TiemposTextWeb-Regular;
-    font-size: 100%;
-
-}
-
-.title-box {
-    display: flex;
-    justify-content: space-between;
-    font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
-    font-size: 25px;
-
-    color: #2a4e2a;
-    border-bottom: 3px groove rgba(0, 0, 0, 0.363);
-}
-
-
-
-.texto-beneficios {
-    margin-bottom: 20px;
-    border-bottom: #000 8px double;
-    padding-bottom: 5px;
-}
-
-.card-body {
-
-    padding: 10px;
-    margin: 3px;
-
-
-}
-
-.col-md-6 {
-    background-color: rgb(198, 201, 194);
-    border: rgb(44, 31, 12) 3px solid;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.card-title {
-    font-size: 1.2rem;
-    font-family: TiemposTextWeb-bold;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.card-text {
-    font-family: TiemposTextWeb-Regular;
-    text-align: justify;
-    font-size: 0.9rem;
-    padding: 2px;
-}
-
-
-.Testimonios-homepage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    margin: 10px;
-}
-
-.txt-test{
-    font-family: TiemposTextWeb-Regular;
-    text-align: justify;
-    font-size:16px;
-    padding: 2px;
-}
-
-@media (max-width: 733px) {
-    .txt-test {
-        font-size:13px;
-    }
-}
-
-    
-.art-tw {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-
-.card-img-top {
-    border: 0.5px solid black;
-    border-radius: 2px;
-}
-
-.background-color {
-
-    border: 1.2px solid #111;
-    border-radius: 5px;
-    background-color: rgba(248, 239, 210, 0.952);
-}
-
-
 footer {
-    background-color: #163020;
-    color: white;
-    padding: 20px;
-    font-size: 15px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    border-bottom: 1px solid #d5d5d5;
-
+  background-color: #163020;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 .footer-nav-sectión {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-    padding: 10px;
-    margin: 25px;
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+  padding: 10px;
+  margin: 25px;
 }
 
 .footer-text {
-    padding: 10px;
-    text-align: end;
-    margin: 25px;
+  padding: 10px;
+  text-align: end;
+  margin: 25px;
 }
-
 .footer-text p {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .copyright {
-    color: #B6C4B6;
-    text-decoration: underline;
+  color: #B6C4B6;
+  text-decoration: underline;
 }
 
 .footer-list {
-    display: flex;
-    flex-direction: row;
-    margin-right: 10px;
-    gap: 35px;
-    text-decoration: none;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  gap: 35px;
+  text-decoration: none;
+  list-style: none;
 }
 
 @media (max-width: 992px) {
-    .footer-list {
-        flex-direction: column;
-        display: flex;
-        width: 8px;
-        height: 100%;
-    }
+  .footer-list {
+    flex-direction: column;
+    display: flex;
+    width: 8px;
+    height: 100%;
+  }
 }
-
-
 .footer-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .footer-A a {
-    font-family: TiemposHeadlineWeb-R, Georgia, serif ;
+  font-family: TiemposHeadlineWeb-R, Georgia, serif;
 }
+
 .footer-link:hover {
-    color: #B6C4B6;
-    cursor: pointer;
+  color: #B6C4B6;
+  cursor: pointer;
 }
 
 .social-service-list {
-    flex-direction: row;
-
-    list-style: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    width: 15px;
-    height: 100%;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: 15px;
+  height: 100%;
 }
-
 
 .social-icons li {
-    margin-left: 10px;
-
+  margin-left: 10px;
 }
-
-
 .social-icons a {
-
-    text-decoration: none;
-    color: white;
-    align-items: center;
+  text-decoration: none;
+  color: white;
+  align-items: center;
 }
 
-
-
-.iconfooter-X,
-.iconfooter-wikipedia,
-.iconfooter-facebook,
-.iconfooter-instagram {
-
-    width: 40px;
-    height: auto;
-    margin-right: 5px;
-    color: #B6C4B6;
-    align-items: center;
-    display: block;
-    filter: invert(1)
+.iconfooter-X, .iconfooter-wikipedia, .iconfooter-facebook, .iconfooter-instagram {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+  color: #B6C4B6;
+  align-items: center;
+  display: block;
+  filter: invert(1);
 }
 
-.contact-info{
-    background-color: #2a4e2a;
+.contact-info {
+  background-color: #2a4e2a;
   padding: 20px;
   border: white double 5px;
   border-radius: 5px;
 }
 
-.contact-info div{
-    background-color: #9eb19e;
-    padding: 10px;
-    border: white double 5px;
-    border-radius: 5px;
-    margin: 3px ;
-    text-align: center;
+.navbar {
+  font-family: TiemposTextWeb-Regular;
+  font-size: 25px;
+  color: #eaf3ed;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.img-nav {
+  filter: invert(1);
+  margin: -13px;
+}
+
+.nav-link {
+  background-color: rgb(248, 7, 7) 100%;
+}
+
+.main-hero {
+  background-image: url(../assets/IMAGENES/FOTO-IA4.jpeg);
+}
+
+.imagnes-certificaciones {
+  border-bottom: #000 8px double;
+  padding: 20px;
+  margin: 30px;
+}
+
+.semititulo {
+  font-size: 25px;
+  border-bottom: #163020 solid;
+  background-color: #d5d5d5;
+  border-radius: 5px;
+  font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+  padding: 30px;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 900px;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .carousel {
+    width: 300px;
+    height: 100%;
+  }
+}
+.beneficios-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+  margin-bottom: 50px;
+  border-bottom: #000 8px double;
+  padding-bottom: 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #a1b3a2;
+  color: #000;
+  text-align: justify;
+  border: 8px solid #304D30;
+  height: 350 px;
+  width: 100%;
+  width: auto;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: TiemposTextWeb-Regular;
+  font-size: 100%;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+  font-size: 25px;
+  color: #2a4e2a;
+  border-bottom: 3px groove rgba(0, 0, 0, 0.363);
+}
+
+.texto-beneficios {
+  margin-bottom: 20px;
+  border-bottom: #000 8px double;
+  padding-bottom: 5px;
+}
+
+.card-body {
+  padding: 10px;
+  margin: 3px;
+}
+
+.col-md-6 {
+  background-color: rgb(198, 201, 194);
+  border: rgb(44, 31, 12) 3px solid;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-family: TiemposTextWeb-bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-family: TiemposTextWeb-Regular;
+  text-align: justify;
+  font-size: 0.9rem;
+  padding: 2px;
+}
+
+.Testimonios-homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.txt-test {
+  font-family: TiemposTextWeb-Regular;
+  text-align: justify;
+  font-size: 16px;
+  padding: 2px;
+}
+
+@media (max-width: 733px) {
+  .txt-test {
+    font-size: 13px;
+  }
+}
+.art-tw {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card-img-top {
+  border: 0.5px solid black;
+  border-radius: 2px;
+}
+
+.background-color {
+  border: 1.2px solid #111;
+  border-radius: 5px;
+  background-color: rgba(248, 239, 210, 0.952);
+}
+
+.main-contact {
+  background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg);
+}
+
+.contact-info {
+  background-color: #2a4e2a;
+  padding: 20px;
+  border: white double 5px;
+  border-radius: 5px;
+}
+.contact-info div {
+  background-color: #9eb19e;
+  padding: 10px;
+  border: white double 5px;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
   font-family: TiemposHeadlineWeb-regular, Georgia, serif;
   font-size: 17px;
 }
 
-.map{
-    width: 100%;
-    height: auto;
-    border: 0px;
+.map {
+  width: 100%;
+  height: auto;
+  border: 0px;
+}
+
+.main-team {
+  background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg);
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-       
-        "a1 a2 "
-        "a3 a4"
-        "a5 a6";
-    gap: 20px;
-    height: auto;
-    width: auto;
-    padding: 25px;
-    border-bottom: #000 8px double;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "a1 a2 " "a3 a4" "a5 a6";
+  gap: 20px;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  border-bottom: #000 8px double;
 }
 
 @media (max-width: 1262px) {
-    .team-list {
-        grid-template-columns: repeat(1, 1fr);
+  .team-list {
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    grid-template-areas:
-        "a1" 
-        "a2"
-        "a3" 
-        "a4";
-    }
-    .video {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-
-.box-team{
-       background-color: #a1b3a2;
-       border: 8px solid #304D30;
-    height: 100%;
+    grid-template-areas: "a1" "a2" "a3" "a4";
+  }
+  .video {
     width: 100%;
-    padding: 20px;
-  
+    max-width: 100%;
+  }
+}
+.box-team {
+  background-color: #a1b3a2;
+  border: 8px solid #304D30;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
 
-.video{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.main-jobs {
+  background-image: url("../assets/IMAGENES/FOTO-IA.jpeg");
+}
+
+.main-test {
+  background-image: url(../assets/IMAGENES/FOTO-IA3.jpeg);
+}
+
+.testimonial-card .card-img-overlay {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.testimonial-card:hover .card-img-overlay {
+  opacity: 1;
+}
+.testimonial-card .overlay-content {
+  transform: translate(-50%, -50%);
+}
+.testimonial-card .overlay-content h5 {
+  margin-bottom: 10px;
+}
+.testimonial-card .overlay-content p {
+  margin-bottom: 20px;
+}
+.testimonial-card .overlay-content small {
+  display: block;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

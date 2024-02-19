@@ -1,0 +1,27 @@
+.main-contact {
+    background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg);
+}
+
+.contact-info {
+    background-color: #2a4e2a;
+    padding: 20px;
+    border: white double 5px;
+    border-radius: 5px;
+
+    div {
+        background-color: #9eb19e;
+        padding: 10px;
+        border: white double 5px;
+        border-radius: 5px;
+        margin: 3px;
+        text-align: center;
+        font-family: TiemposHeadlineWeb-regular, Georgia, serif;
+        font-size: 17px;
+    }
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    border: 0px;
+}

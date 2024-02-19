@@ -1,0 +1,33 @@
+.main-test {
+  background-image: url(../assets/IMAGENES/FOTO-IA3.jpeg);
+}
+
+.testimonial-card {
+  // position: relative;
+
+  .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  &:hover .card-img-overlay {
+    opacity: 1;
+  }
+
+  .overlay-content {
+    transform: translate(-50%, -50%);
+
+    h5 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    small {
+      display: block;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+html {
+    font-family: Graphik;
+    color: #163020;
+    background-color: #B6C4B6;
+  }
+  
+  .body {
+    margin: 0 auto;
+    width: 1425px;
+    background-color: #B6C4B6;
+  }
+  
+  @media (max-width: 1320px) {
+    .body {
+      width: 100%;
+    }
+  }
+
+  .main-hero {
+    background-size: cover;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: #000 8px double;
+  }
+  
+  
+  .title {
+    font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-family: TiemposTextWeb-Regular;
+  }
+  
+  .contacto {
+    display: flex;
+  }
+  
+  .button {
+    background-color: #163020;
+    color: #B6C4B6;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
+    margin: 20px;
+  }

@@ -1,0 +1,42 @@
+.main-team {
+    background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg);
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "a1 a2 " "a3 a4" "a5 a6";
+    gap: 20px;
+    height: auto;
+    width: auto;
+    padding: 25px;
+    border-bottom: #000 8px double;
+  }
+  
+  @media (max-width: 1262px) {
+    .team-list {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: auto;
+      grid-template-areas: "a1" "a2" "a3"  "a4";
+    }
+  
+    .video {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .box-team {
+    background-color: #a1b3a2;
+    border: 8px solid #304D30;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
