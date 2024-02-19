@@ -1,6 +1,11 @@
 .main-hero {
-    background-image: url('../assets/IMAGENES/FOTO-IA4.webp')
+    
+    background: linear-gradient(rgba(148, 190, 162, 0.836), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA4.webp");
+    background-size: cover; 
+    background-position: center;  
+    background-blend-mode: multiply;
 }
+
 
 .imagnes-certificaciones {
     border-bottom: #000 8px double;

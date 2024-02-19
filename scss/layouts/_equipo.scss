@@ -1,5 +1,10 @@
 .main-team {
-    background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg);
+
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url('../assets/IMAGENES/FOTO-IA2.webp');
+  background-size: cover; 
+  background-position: center;  
+  background-blend-mode: multiply;
+   
   }
 
   .team-grid {
@@ -39,4 +44,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } 

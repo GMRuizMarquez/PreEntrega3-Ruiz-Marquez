@@ -1,5 +1,7 @@
 .main-jobs {
-  
-
-  background-image:  url('../assets/IMAGENES/FOTO-IA.jpeg')
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA.webp");
+  background-size: cover; 
+  background-position: center;  
+  background-blend-mode: multiply;
 }
+

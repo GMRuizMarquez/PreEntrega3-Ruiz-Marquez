@@ -1,5 +1,9 @@
 .main-contact {
-    background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg);
+    background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/LOS SIMULADORES-GRUPO.webp");
+    background-size: cover; 
+    background-position: center;  
+    background-blend-mode: multiply;
+     
 }
 
 .contact-info {

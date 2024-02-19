@@ -16,7 +16,7 @@ html {
     width: 100%;
   }
 }
-.main-hero {
+.main {
   background-size: cover;
   height: 850px;
   display: flex;
@@ -190,7 +190,10 @@ footer {
 }
 
 .main-hero {
-  background-image: url("../assets/IMAGENES/FOTO-IA4.webp");
+  background: linear-gradient(rgba(148, 190, 162, 0.836), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA4.webp");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .imagnes-certificaciones {
@@ -327,7 +330,10 @@ footer {
 }
 
 .main-contact {
-  background-image: url(../assets/IMAGENES/LOS\ SIMULADORES-GRUPO.jpg);
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/LOS SIMULADORES-GRUPO.webp");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .contact-info {
@@ -354,7 +360,10 @@ footer {
 }
 
 .main-team {
-  background-image: url(../assets/IMAGENES/FOTO-IA2.jpeg);
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA2.webp");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .team-grid {
@@ -395,11 +404,17 @@ footer {
 }
 
 .main-jobs {
-  background-image: url("../assets/IMAGENES/FOTO-IA.jpeg");
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA.webp");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .main-test {
-  background-image: url(../assets/IMAGENES/FOTO-IA3.jpeg);
+  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url(../assets/IMAGENES/FOTO-IA3.webp);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 
 .testimonial-card .card-img-overlay {
