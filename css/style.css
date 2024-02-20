@@ -1,13 +1,13 @@
 @charset "UTF-8";
-html {
-  font-family: Graphik;
-  color: #163020;
-  background-color: #B6C4B6;
-}
-
 .body {
   margin: 0 auto;
   width: 1425px;
+  background-color: #B6C4B6;
+}
+
+html {
+  font-family: Graphik;
+  color: #163020;
   background-color: #B6C4B6;
 }
 
@@ -43,12 +43,24 @@ html {
 
 .button {
   background-color: #163020;
-  color: #B6C4B6;
-  padding: 10px 10px;
+  color: bisque;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
+  margin: 0px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.button:hover {
+  background-color: rgba(3, 43, 3, 0.7882352941);
+  transform: scale(1.1);
+  border: #163020 SOLID 3px;
+  margin: 0 px;
+}
+
+.refbot {
+  height: 100px;
   margin: 20px;
 }
 
@@ -453,6 +465,29 @@ footer {
 .semititulo-idea:hover {
   background-color: #163020;
   color: beige;
+}
+
+.idea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: TiemposHeadlineWeb-regular, Georgia, serif, Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+}
+.idea h2 {
+  font-size: 50px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.idea p {
+  font-size: 25px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
