@@ -172,7 +172,6 @@ footer {
 .navbar {
   font-family: TiemposTextWeb-Regular;
   font-size: 25px;
-  color: #eaf3ed;
 }
 
 .navbar-nav {
@@ -183,10 +182,6 @@ footer {
 .img-nav {
   filter: invert(1);
   margin: -13px;
-}
-
-.nav-link {
-  background-color: rgb(248, 7, 7) 100%;
 }
 
 .main-hero {
@@ -404,7 +399,7 @@ footer {
 }
 
 .main-jobs {
-  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(60, 78, 66, 0.151) 100%), url("../assets/IMAGENES/FOTO-IA.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -436,6 +431,28 @@ footer {
 .testimonial-card .overlay-content small {
   display: block;
   font-size: 12px;
+}
+
+.main-idea {
+  background: linear-gradient(90deg, rgba(28, 104, 97, 0.801), rgba(255, 255, 255, 0.712) 100%), url("../assets/IMAGENES/ARMADO.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.semititulo-idea {
+  text-align: justify;
+  background-color: beige;
+  margin: 20px 0px;
+  font-size: 25px;
+  font-family: TiemposHeadlineWeb-regular, Georgia, serif, Georgia, "Times New Roman", Times, serif;
+  color: #163020;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.semititulo-idea:hover {
+  background-color: #163020;
+  color: beige;
 }
 
 /*# sourceMappingURL=style.css.map */

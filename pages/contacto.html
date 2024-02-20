@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Segunda Pre-entrega</title>
+    <title>Tercera Pre-entrega</title>
 
 </head>
 
@@ -19,8 +19,8 @@
         <nav class="navbar  navbar-dark bg-black navbar-expand-lg">
             <section class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img class="img-nav" src="../assets/IMAGENES/LOGO-PNG.webp" alt="logo de los simuladores" width="170"
-                        height="120">
+                    <img class="img-nav" src="../assets/IMAGENES/LOGO-PNG.webp" alt="logo de los simuladores"
+                        width="170" height="120">
                 </a>
 
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas"
@@ -79,71 +79,65 @@
         </section>
 
 
-        <section class="hero-contact">
+        <section class="hero-contact my-4">
 
-            <section class="container-md">
+            <section class="container-md ">
                 <div class="row p-2">
 
-                    <article class="contact-info col-md-5 col-sm-12 d-flex row ">
+                    <!-- Información de contacto -->
+                    <article class="contact-info col-md-5 col-sm-12">
                         <div>
-                            <h4 class=" semititulo ">Información</h4>
-                            <h3 class="box-title">PHONE</h3>
-                            <a class="cont-box">(+54 011) 4587-8544</a>
+                            <h2 class="section-title">Información de Contacto</h2>
+                            <div class="contact-box">
+                                <h3>TELÉFONO</h3>
+                                <p>(+54 011) 4587-8544</p>
+                            </div>
+
+                            <div class="contact-box">
+                                <h3>Email</h3>
+                                <p>General: <a href="mailto:sip@simuladores.com"
+                                        class="contact-link">sip@simuladores.com</a></p>
+                                <p>Team: <a href="mailto:TeamInqui@simuladores.com"
+                                        class="contact-link">TeamInqui@simuladores.com</a></p>
+                            </div>
+
                         </div>
-                        <div>
-                            <h3 class="box-title">EMAIL</h3>
-                            <h4>General inquieres</h4>
-                            <a class="cont-box">sip@simuladores.com</a>
-
-                            <h4>Team inquieres</h4>
-                            <a class="cont-box">TeamInqui@simuladores.com</a>
+                        <div class="map-container my-4">
+                            <iframe class="map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.598868662072!2d-58.37340432366021!3d-34.608195135760106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1705437614189!5m2!1ses!2sar"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-
-                        <iframe class="map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.598868662072!2d-58.37340432366021!3d-34.608195135760106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1705437614189!5m2!1ses!2sar"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                     </article>
 
-                    <form class="Forms-comp  box col-md-5 offset-md-2 col-sm-12">
-
-
-                        <div class="mb-3">
-                            <label for="Nombre" class="form-label">Nombre </label>
-                            <input type="text" class="form-control" id="Name" aria-describedby="NameHelp">
-
+                    <!-- Formulario de contacto -->
+                    <form class="contact-form box col-md-5 offset-md-2 col-sm-12">
+                        <h2 class="section-title">Contacta con Nosotros</h2>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="referrer">Referente</label>
+                            <input type="text" class="form-control" id="referrer">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Explique su caso</label>
+                            <textarea class="form-control" id="message" placeholder="En qué podemos ayudarte"
+                                style="height: 200px;resize: none;" maxlength="400"></textarea>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="telefono" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="telefono">
-                        </div>
-                        <div class="mb-3">
-                            <div class="Forms-label"> <label for="referente" class="form-label">Referente</label>
-                                <input type="text" class="form-control" id="referente">
-                            </div>
-                        </div>
-
-                        <div class="Forms-label">
-                            <label for="mensaje"> Explique su caso</label>
-                            <textarea class="form-control" placeholder="En que podemos ayudarte" id="mensaje"
-                                style="height: 200px;"></textarea>
-                        </div>
-
-
-                        <button type="submit" class="button btn-secondary btn-sm btn-block h5 text-white m-3">Fuego
-                            tiene?</button>
-
-
+                        <button type="submit" class="button btn-secondary btn-sm btn-block h5 text-white m-3">Enviar
+                            Mensaje</button>
                     </form>
                 </div>
-
             </section>
 
             <article class=" d-flex align-items-center justify-content-center col">
@@ -152,7 +146,6 @@
 
             </article>
         </section>
-
 
 
     </main>
