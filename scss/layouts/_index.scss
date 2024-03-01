@@ -1,6 +1,6 @@
 .main-hero {
     
-    background: linear-gradient(rgba(148, 190, 162, 0.836), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA4.webp");
+    background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url("../assets/IMAGENES/FOTO-IA4.webp");
     background-size: cover; 
     background-position: center;  
     background-blend-mode: multiply;
@@ -28,12 +28,7 @@
     height: 100%;
 }
 
-@media (max-width: 992px) {
-    .carousel {
-        width: 300px;
-        height: 100%;
-    }
-}
+
 
 .beneficios-list {
     display: flex;
@@ -117,11 +112,7 @@
     padding: 2px;
   }
   
-  @media (max-width: 733px) {
-    .txt-test {
-      font-size: 13px;
-    }
-  }
+
   
   .art-tw {
     display: flex;

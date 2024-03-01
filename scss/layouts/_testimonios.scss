@@ -1,17 +1,27 @@
 .main-test {
-    background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url(../assets/IMAGENES/FOTO-IA3.webp);
-  background-size: cover; 
-  background-position: center;  
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url(../assets/IMAGENES/FOTO-IA3.webp);
+  background-size: cover;
+  background-position: center;
   background-blend-mode: multiply;
 }
 
 
 .testimonial-card {
-  // position: relative;
+
 
   .card-img-overlay {
     opacity: 0;
     transition: opacity 0.5s;
+
+    h5 {
+      margin-bottom: 10px;
+      font-size: 2vw;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.3vw;
+    }
   }
 
   &:hover .card-img-overlay {
@@ -20,6 +30,8 @@
 
   .overlay-content {
     transform: translate(-50%, -50%);
+
+
 
     h5 {
       margin-bottom: 10px;
@@ -31,7 +43,7 @@
 
     small {
       display: block;
-      font-size: 12px;
+
     }
   }
 }

@@ -1,0 +1,39 @@
+  @media (min-width: 1400px) {
+     .container-lg  {
+      max-width: 80%;
+    }}
+
+    @media (max-width: 992px) {
+        .footer-list {
+          flex-direction: column;
+          display: flex;
+          width: 8px;
+          height: 100%;
+        }
+      }
+
+      @media (max-width: 1262px) {
+        .team-list {
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: auto;
+          grid-template-areas: "a1" "a2" "a3"  "a4";
+        }
+      
+        .video {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .carousel {
+            width: 300px;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 733px) {
+        .txt-test {
+          font-size: 13px;
+        }
+      }

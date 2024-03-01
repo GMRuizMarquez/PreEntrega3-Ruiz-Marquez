@@ -4,11 +4,6 @@ html {
     background-color: #B6C4B6;
   }
      
-  @media (max-width: 1320px) {
-    .body {
-      width: 100%;
-    }
-  }
 
   .main{
     background-size: cover;
@@ -44,14 +39,24 @@ html {
     border-radius: 5px;
     cursor: pointer;
     font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
+    font-size: 20px;
     margin: 0px;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
 
     &:hover {
-        background-color: #032b03c9;
+        background-color: bisque;
         transform: scale(1.1);
-        border: #163020 SOLID 3px;
-        margin:0 px
+        color:#163020;        
+        border: #163020 1px solid;
+        
+        
+       
+        
     }
 }
 

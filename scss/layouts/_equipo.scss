@@ -1,6 +1,6 @@
 .main-team {
 
-  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url('../assets/IMAGENES/FOTO-IA2.webp');
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url('../assets/IMAGENES/FOTO-IA2.webp');
   background-size: cover; 
   background-position: center;  
   background-blend-mode: multiply;
@@ -18,19 +18,7 @@
     padding: 25px;
     border-bottom: #000 8px double;
   }
-  
-  @media (max-width: 1262px) {
-    .team-list {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: auto;
-      grid-template-areas: "a1" "a2" "a3"  "a4";
-    }
-  
-    .video {
-      width: 100%;
-      max-width: 100%;
-    }
-  }
+
   
   .box-team {
     background-color: #a1b3a2;

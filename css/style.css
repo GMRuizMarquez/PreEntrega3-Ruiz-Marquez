@@ -1,4 +1,11 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .body {
   margin: 0 auto;
   width: 1425px;
@@ -11,9 +18,9 @@ html {
   background-color: #B6C4B6;
 }
 
-@media (max-width: 1320px) {
-  .body {
-    width: 100%;
+@media (min-width: 1400px) {
+  .container-lg {
+    max-width: 100%;
   }
 }
 .main {
@@ -49,14 +56,20 @@ html {
   border-radius: 5px;
   cursor: pointer;
   font-family: TiemposHeadlineWeb-Regular, Georgia, serif;
+  font-size: 20px;
   margin: 0px;
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
 }
 .button:hover {
-  background-color: rgba(3, 43, 3, 0.7882352941);
+  background-color: bisque;
   transform: scale(1.1);
-  border: #163020 SOLID 3px;
-  margin: 0 px;
+  color: #163020;
+  border: #163020 1px solid;
 }
 
 .refbot {
@@ -87,7 +100,7 @@ footer {
   align-items: center;
   position: relative;
   bottom: 0;
-  width: auto;
+  width: 101%;
   border-bottom: 1px solid #d5d5d5;
 }
 
@@ -197,7 +210,7 @@ footer {
 }
 
 .main-hero {
-  background: linear-gradient(rgba(148, 190, 162, 0.836), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA4.webp");
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url("../assets/IMAGENES/FOTO-IA4.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -337,7 +350,7 @@ footer {
 }
 
 .main-contact {
-  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/LOS SIMULADORES-GRUPO.webp");
+  background: linear-gradient(rgba(224, 228, 225, 0.219), rgba(60, 78, 66, 0.068) 90%), url("../assets/IMAGENES/LOS SIMULADORES-GRUPO.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -366,8 +379,14 @@ footer {
   border: 0px;
 }
 
+.btn-cont {
+  height: 50px;
+  align-self: center;
+  margin: 15px;
+}
+
 .main-team {
-  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url("../assets/IMAGENES/FOTO-IA2.webp");
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url("../assets/IMAGENES/FOTO-IA2.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -411,14 +430,14 @@ footer {
 }
 
 .main-jobs {
-  background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(60, 78, 66, 0.151) 100%), url("../assets/IMAGENES/FOTO-IA.webp");
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url("../assets/IMAGENES/FOTO-IA.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
 }
 
 .main-test {
-  background: linear-gradient(rgba(16, 223, 85, 0.219), rgba(60, 78, 66, 0.295) 90%), url(../assets/IMAGENES/FOTO-IA3.webp);
+  background: linear-gradient(90deg, rgba(2, 17, 7, 0.753) 35%, rgba(3, 22, 9, 0.027) 75%), url(../assets/IMAGENES/FOTO-IA3.webp);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -427,6 +446,14 @@ footer {
 .testimonial-card .card-img-overlay {
   opacity: 0;
   transition: opacity 0.5s;
+}
+.testimonial-card .card-img-overlay h5 {
+  margin-bottom: 10px;
+  font-size: 2vw;
+}
+.testimonial-card .card-img-overlay p {
+  margin-bottom: 20px;
+  font-size: 1.3vw;
 }
 .testimonial-card:hover .card-img-overlay {
   opacity: 1;
@@ -442,11 +469,10 @@ footer {
 }
 .testimonial-card .overlay-content small {
   display: block;
-  font-size: 12px;
 }
 
 .main-idea {
-  background: linear-gradient(90deg, rgba(28, 104, 97, 0.801), rgba(255, 255, 255, 0.712) 100%), url("../assets/IMAGENES/ARMADO.webp");
+  background: linear-gradient(90deg, rgba(28, 104, 97, 0.801) 30%, rgba(255, 255, 255, 0.712) 70%), url("../assets/IMAGENES/ARMADO.webp");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -472,22 +498,37 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: TiemposHeadlineWeb-regular, Georgia, serif, Georgia, "Times New Roman", Times, serif;
+  font-family: "TiemposHeadlineWeb-regular", Georgia, serif, Georgia, "Times New Roman", Times, serif;
   text-align: justify;
+  border-radius: 15px;
+  border: #000 5px solid;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 1.5s;
+}
+.idea:hover {
+  background: linear-gradient(163deg, rgb(20, 173, 71) 1%, rgb(3, 41, 16) 52%);
+  transform: scale(1.01);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 .idea h2 {
-  font-size: 50px;
-  background-color: antiquewhite;
-  color: black;
-  border-radius: 5px;
-  text-transform: capitalize;
+  font-size: 4vw;
+  color: #e9e3e3;
+  border-radius: 10px;
+  padding: 10px;
   margin-bottom: 10px;
+  transition: background 0.3s;
 }
 .idea p {
-  font-size: 25px;
-  background-color: antiquewhite;
-  color: black;
-  border-radius: 5px;
+  font-size: 1.6vw;
+  color: #e9e3e3;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.main-steps {
+  border: #163020 5px solid;
 }
 
 /*# sourceMappingURL=style.css.map */
