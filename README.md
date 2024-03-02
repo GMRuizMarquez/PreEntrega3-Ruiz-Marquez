@@ -21,7 +21,7 @@ Esta página web fue creada con HTML, estilos en CSS y SASS, y hace uso del fram
 
 1. **Clonar el Repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/tu-proyecto.git
+    git clone https://github.com/GMRuizMarquez/Proyecto-Los-Simualdores
     ```
 
 2. **Abrir la Página:**
